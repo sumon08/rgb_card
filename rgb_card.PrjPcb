@@ -24,6 +24,7 @@ ReorderDocumentsOnCompile=1
 NameNetsHierarchically=0
 PowerPortNamesTakePriority=0
 AutoSheetNumbering=0
+AutoCrossReferences=0
 PushECOToAnnotationFile=1
 DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
@@ -74,7 +75,7 @@ GenerateClassCluster=0
 DocumentUniqueId=QTZQZOXM
 
 [Document3]
-DocumentPath=Processor_Unit.SchDoc
+DocumentPath=Processor.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -125,7 +126,7 @@ GenerateClassCluster=0
 DocumentUniqueId=OHPVUYQN
 
 [Document6]
-DocumentPath=Ethernet_Unit.SchDoc
+DocumentPath=Ethernet.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -142,7 +143,7 @@ GenerateClassCluster=0
 DocumentUniqueId=WHCVDZWW
 
 [Document7]
-DocumentPath=Memory_Unit.SchDoc
+DocumentPath=Memory.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -159,7 +160,7 @@ GenerateClassCluster=0
 DocumentUniqueId=OGMBGRPH
 
 [Document8]
-DocumentPath=Power_Unit.SchDoc
+DocumentPath=Power.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -176,7 +177,24 @@ GenerateClassCluster=0
 DocumentUniqueId=RXKMQKRY
 
 [Document9]
-DocumentPath=RS485_Unit.SchDoc
+DocumentPath=PowerSchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=RXKMQKRY
+
+[Document10]
+DocumentPath=RS485.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -192,8 +210,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UBLOWUZH
 
-[Document10]
-DocumentPath=WIFI_Unit.SchDoc
+[Document11]
+DocumentPath=WIFI.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -209,7 +227,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KJKIVZSZ
 
-[Document11]
+[Document12]
 DocumentPath=HUB75B.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -226,7 +244,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WUOPCJVK
 
-[Document12]
+[Document13]
 DocumentPath=rgb_card.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -243,8 +261,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=POUAKLUR
 
-[Document13]
-DocumentPath=Processor_Unit.Harness
+[Document14]
+DocumentPath=Processor.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -259,6 +277,18 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
+
+[Parameter1]
+Name=VersionRevision
+Value=v1.0.0
+
+[Parameter2]
+Name=Project
+Value=DMD RGB Card
+
+[Parameter3]
+Name=Company
+Value=AFRA TECHNOLOGY
 
 [Configuration1]
 Name=Sources
