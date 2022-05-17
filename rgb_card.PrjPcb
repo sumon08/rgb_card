@@ -194,6 +194,23 @@ GenerateClassCluster=0
 DocumentUniqueId=KJKIVZSZ
 
 [Document10]
+DocumentPath=rgb_card.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=POUAKLUR
+
+[Document11]
 DocumentPath=afra.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -210,7 +227,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HHFVSAXD
 
-[Document11]
+[Document12]
 DocumentPath=afra.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
